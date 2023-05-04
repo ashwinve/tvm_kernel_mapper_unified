@@ -80,6 +80,8 @@ cat >/install/package-list-minimal.txt <<EOF
 build-tools;26.0.3
 build-tools;${BUILD_TOOLS_VERSION}
 cmake;${CMAKE_VERSION}
+sources;android-31
+skiaparser;3
 emulator
 extras;android;m2repository
 extras;google;auto

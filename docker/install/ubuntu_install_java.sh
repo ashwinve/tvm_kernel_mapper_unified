@@ -36,8 +36,8 @@ case $arch in
         ;;
 esac
 
-if [ ! -d "/usr/lib/jvm/java-8-openjdk-$jre_arch/jre" ]; then
+if [ ! -d "/usr/lib/jvm/java-11-openjdk-$jre_arch/jre" ]; then
   echo "error: missing openjdk for $jre_arch" >&2
   exit 1
 fi
-echo "export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-$jre_arch/jre" >> /etc/profile
+echo "export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-$jre_arch/jre" >> /etc/profile
